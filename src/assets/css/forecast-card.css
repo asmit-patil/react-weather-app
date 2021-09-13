@@ -1,0 +1,25 @@
+.forecast-card {
+  border-top: 1px solid gray;
+  border-bottom: 3px solid gray;
+}
+
+.forecast-card ul {
+  padding: 0;
+}
+
+.forecast-card li {
+  list-style: none;
+  padding: 12px 0;
+  color: rgba(107, 114, 128);
+  letter-spacing: 0.025em;
+}
+
+.forecast-card li span {
+  width: calc(100%/3);
+  display: inline-block;
+
+}
+
+.forecast-card li span:nth-child(3) {
+  text-align: right;
+}
