@@ -1,4 +1,4 @@
-# React weather App
+# React Weather App
 
 A simple React weather app that displays weather information from the OpenWeatherMap API. It is displaying current and next 5 days weather forecast of current location provided by user (by default it will take Galway as current location). It will also display the current weather and diffence of the temperatures of city searched by user and the current city. This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -11,10 +11,10 @@ A simple React weather app that displays weather information from the OpenWeathe
 
 ```js
 module.exports = {
-  API_KEY: '',          // Required Field. 
-  currentCity : ''      // Optional Field. By default it will take Galway
-  refreshInterval: ''   // Optional Field. By default it will take 60000 (60000 ms = 1 min)
-  unit: ''              // Optional Field. By default it will take metric (Options available:standard, metric & imperial)
+  API_KEY: '',           // Required Field. 
+  currentCity : '',      // Optional Field. By default it will take Galway
+  refreshInterval: '',   // Optional Field. By default it will take 60000 (60000 ms = 1 min)
+  unit: ''               // Optional Field. By default it will take metric (Options available:standard, metric & imperial)
 }
 ```
 
